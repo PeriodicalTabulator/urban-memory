@@ -1,0 +1,30 @@
+h1{
+ background-color: color-mix(in srgb, blue 75%, black 25%);
+ text-align: center;
+ color: white;
+}
+ul{
+
+    list-style-type: none;
+    margin: 2px;
+    padding: 3px;
+    overflow: hidden;
+    background-color: color-mix(in srgb, blue 75%, black 25%);
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: darkblue;
+  }
