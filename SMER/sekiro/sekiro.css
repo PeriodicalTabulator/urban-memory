@@ -1,8 +1,4 @@
-h1{
-    background-color: color-mix(in srgb, red 75%, black 50%);
-    text-align: center;
-    color: black;
-   }
+
    ul{
    
        list-style-type: none;
@@ -20,7 +16,7 @@ h1{
      li a {
         font-family: fantasy;
        display: block;
-       color: black;
+       color: rgb(210, 199, 199);
        text-align: center;
        padding: 14px 16px;
        text-decoration: none;
@@ -28,23 +24,67 @@ h1{
      
      li a:hover {
        background-color: darkred;
-     }
-     p{
-       text-align: center;
-       color: black;
-       font-family: fantasy;
-     }
-     pre{
-        text-align: center;
-        color: black;
-        font-family: fantasy;
-      }
-      td{
-        text-align: center;
-        font-family: fantasy;
-      }
-      img{
-        border: 2px;
-        border-style: solid;
-        border-color: gray;
-      }
+}
+h1,h2,h3{
+  text-align: center;
+  color: rgb(210, 199, 199);
+  border-bottom: 2px solid;
+  border-color:white;
+
+
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+  background-color: darkred;
+}
+pre{
+  color: rgb(210, 199, 199);
+  font-size: 15px;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img{
+  border: 5px solid;
+  border-left: 5px groove;
+  border-right: 5px groove ;
+  border-radius: 0px;
+  border-left-color: firebrick;
+  border-right-color: firebrick;
+  border-top-color: rgb(250, 90, 90);
+  border-bottom-color: rgb(250,90,90);
+}
+img{
+  border: 5px solid;
+  border-left: 5px groove;
+  border-right: 5px groove ;
+  border-radius: 0px;
+  border-left-color: firebrick;
+  border-right-color: firebrick;
+  border-top-color: rgb(250, 90, 90);
+  border-bottom-color: rgb(250,90,90);
+}
+p{
+  color: rgb(210, 199, 199);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img:hover{
+  border: 5px solid;
+  border-color: black;
+  border-top: 2px solid;
+  border-top-color: black;
+  border-right: 2px solid;
+  border-right-color: black;
+  border-left: 2px solid;
+  border-left-color: black;
+  transition-duration: 1s;
+}
+.img:active{
+  border: none;
+}
+.img::after{
+  transition-duration: 1s;
+}
+a{
+  text-align: center;
+}
