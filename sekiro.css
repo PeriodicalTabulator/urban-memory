@@ -47,10 +47,6 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropbtn{
-  float: left;
-  overflow: hidden;
-}
   ul{
    
        list-style-type: none;
